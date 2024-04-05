@@ -6,9 +6,9 @@ import (
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	kubeschedulerscheme "k8s.io/kubernetes/pkg/scheduler/apis/config/scheme"
 
-	"github.com/mokaz111/mokazSche/pkg/pkg/plugins/apis/config/v1beta2"
-	"github.com/mokaz111/mokazSche/pkg/pkg/plugins/apis/config/v1beta3"
 	"github.com/mokaz111/mokazSche/pkg/plugins/apis/config"
+	"github.com/mokaz111/mokazSche/pkg/plugins/apis/config/v1beta2"
+	"github.com/mokaz111/mokazSche/pkg/plugins/apis/config/v1beta3"
 )
 
 var (
