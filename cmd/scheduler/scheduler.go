@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/mokaz111/mokazSche/pkg/plugins/dynamic"
+	"github.com/mokaz111/mokazSche/pkg/plugins/noderesourcetopology"
 	"k8s.io/component-base/logs"
 
 	"k8s.io/kubernetes/cmd/kube-scheduler/app"

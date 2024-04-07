@@ -2,6 +2,11 @@ package options
 
 import (
 	"fmt"
+	controllerappconfig "github.com/mokaz111/mokazSche/cmd/controller/app/config"
+	annotatorconfig "github.com/mokaz111/mokazSche/pkg/controller/annotator/config"
+	"github.com/mokaz111/mokazSche/pkg/controller/prometheus"
+	dynamicscheduler "github.com/mokaz111/mokazSche/pkg/plugins/dynamic"
+	"github.com/mokaz111/mokazSche/pkg/utils"
 	"github.com/spf13/pflag"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	clientset "k8s.io/client-go/kubernetes"
@@ -9,11 +14,6 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	componentbaseconfig "k8s.io/component-base/config"
 	"k8s.io/component-base/config/options"
-	controllerappconfig "mokazSche/cmd/controller/app/config"
-	annotatorconfig "mokazSche/pkg/controller/annotator/config"
-	"mokazSche/pkg/controller/prometheus"
-	dynamicscheduler "mokazSche/pkg/plugins/dynamic"
-	"mokazSche/pkg/utils"
 	"time"
 )
 

@@ -1,15 +1,15 @@
 package config
 
 import (
+	"github.com/mokaz111/mokazSche/pkg/plugins/apis/policy"
 	"k8s.io/client-go/informers"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/record"
-	"mokazSche/pkg/plugins/apis/policy"
 
+	annotatorconfig "github.com/mokaz111/mokazSche/pkg/controller/annotator/config"
 	componentbaseconfig "k8s.io/component-base/config"
-	annotatorconfig "mokazSche/pkg/controller/annotator/config"
 
-	prom "mokazSche/pkg/controller/prometheus"
+	prom "github.com/mokaz111/mokazSche/pkg/controller/prometheus"
 )
 
 type Config struct {

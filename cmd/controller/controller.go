@@ -3,10 +3,10 @@ package main
 import (
 	goflag "flag"
 	"fmt"
+	"github.com/mokaz111/mokazSche/cmd/controller/app"
 	"k8s.io/component-base/logs"
 	"k8s.io/klog/v2"
 	"math/rand"
-	"mokazSche/cmd/controller/app"
 	"os"
 	"time"
 

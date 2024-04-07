@@ -62,6 +62,43 @@ github.com/go-openapi/jsonreference
 # github.com/go-openapi/swag v0.19.14
 ## explicit; go 1.11
 github.com/go-openapi/swag
+# github.com/gocrane/api v0.11.0
+## explicit; go 1.16
+github.com/gocrane/api/analysis
+github.com/gocrane/api/analysis/v1alpha1
+github.com/gocrane/api/autoscaling/v1alpha1
+github.com/gocrane/api/co2e/v1alpha1
+github.com/gocrane/api/ensurance/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned
+github.com/gocrane/api/pkg/generated/clientset/versioned/scheme
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/analysis/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/autoscaling/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/co2e/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/ensurance/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/prediction/v1alpha1
+github.com/gocrane/api/pkg/generated/clientset/versioned/typed/topology/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions
+github.com/gocrane/api/pkg/generated/informers/externalversions/analysis
+github.com/gocrane/api/pkg/generated/informers/externalversions/analysis/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions/autoscaling
+github.com/gocrane/api/pkg/generated/informers/externalversions/autoscaling/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions/co2e
+github.com/gocrane/api/pkg/generated/informers/externalversions/co2e/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions/ensurance
+github.com/gocrane/api/pkg/generated/informers/externalversions/ensurance/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions/internalinterfaces
+github.com/gocrane/api/pkg/generated/informers/externalversions/prediction
+github.com/gocrane/api/pkg/generated/informers/externalversions/prediction/v1alpha1
+github.com/gocrane/api/pkg/generated/informers/externalversions/topology
+github.com/gocrane/api/pkg/generated/informers/externalversions/topology/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/analysis/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/autoscaling/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/co2e/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/ensurance/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/prediction/v1alpha1
+github.com/gocrane/api/pkg/generated/listers/topology/v1alpha1
+github.com/gocrane/api/prediction/v1alpha1
+github.com/gocrane/api/topology/v1alpha1
 # github.com/gogo/protobuf v1.3.2
 ## explicit; go 1.15
 github.com/gogo/protobuf/gogoproto
@@ -144,8 +181,6 @@ github.com/modern-go/reflect2
 # github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822
 ## explicit
 github.com/munnerz/goautoneg
-# github.com/onsi/ginkgo v1.16.4
-## explicit; go 1.15
 # github.com/onsi/gomega v1.18.1
 ## explicit; go 1.16
 # github.com/opencontainers/go-digest v1.0.0
@@ -718,6 +753,9 @@ k8s.io/apiserver/plugin/pkg/audit/truncate
 k8s.io/apiserver/plugin/pkg/audit/webhook
 k8s.io/apiserver/plugin/pkg/authenticator/token/webhook
 k8s.io/apiserver/plugin/pkg/authorizer/webhook
+# k8s.io/autoscaler/vertical-pod-autoscaler v0.10.0
+## explicit; go 1.14
+k8s.io/autoscaler/vertical-pod-autoscaler/pkg/apis/autoscaling.k8s.io/v1
 # k8s.io/client-go v0.23.3 => k8s.io/client-go v0.23.3
 ## explicit; go 1.16
 k8s.io/client-go/applyconfigurations/admissionregistration/v1
@@ -1190,6 +1228,15 @@ k8s.io/kubernetes/pkg/volume/util/recyclerclient
 k8s.io/kubernetes/pkg/volume/util/subpath
 k8s.io/kubernetes/pkg/volume/util/types
 k8s.io/kubernetes/pkg/volume/util/volumepathhandler
+# k8s.io/metrics v0.23.3 => k8s.io/metrics v0.23.3
+## explicit; go 1.16
+k8s.io/metrics/pkg/apis/custom_metrics
+k8s.io/metrics/pkg/apis/custom_metrics/v1beta1
+k8s.io/metrics/pkg/apis/custom_metrics/v1beta2
+k8s.io/metrics/pkg/apis/external_metrics
+k8s.io/metrics/pkg/apis/external_metrics/v1beta1
+k8s.io/metrics/pkg/apis/metrics
+k8s.io/metrics/pkg/apis/metrics/v1beta1
 # k8s.io/mount-utils v0.23.3 => k8s.io/mount-utils v0.23.3
 ## explicit; go 1.16
 k8s.io/mount-utils
